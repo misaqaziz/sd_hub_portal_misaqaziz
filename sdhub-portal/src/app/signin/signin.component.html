@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <mat-card>
+        <h1>SD HUB</h1>
+        <h2>Sign In</h2>
+        <form [formGroup]="signInForm" (ngSubmit)="onSubmit()">
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput formControlName="email" type="email" required>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <input matInput formControlName="password" type="password" required>
+            </mat-form-field>
+            <button mat-raised-button color="primary" type="submit">Sign In</button>
+        </form>
+        <a href="/register">Register here</a>
+    </mat-card>
+</body>
+</html>

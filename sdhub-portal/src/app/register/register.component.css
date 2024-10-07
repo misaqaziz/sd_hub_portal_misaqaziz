@@ -1,0 +1,9 @@
+mat-card {
+    margin:auto;
+    width: 300px;
+    height: fit-content;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    background-color: burlywood;
+}

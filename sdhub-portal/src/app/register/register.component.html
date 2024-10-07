@@ -1,0 +1,163 @@
+<div class="main-register">
+    <div class="register-head">
+      <div class="register-head-div1">
+        <div class="img">
+          <img src="./logo.png" alt="" />
+        </div>
+        <div class="logo-name">
+          <h1>Student Registration</h1>
+          <p>Skill Development Hub</p>
+        </div>
+      </div>
+  
+      <div class="register-head-div2">
+        <!-- <input type="file" name="file" placeholder="Upload Photo"> -->
+        <p>Upload Passport Photo</p>
+      </div>
+    </div>
+  
+    <!-- -------------Module Section---------------------------------- -->
+  
+    <div class="module-sec">
+      <div class="module">
+        <p class="module-num num1">1</p>
+        <p class="num1-p">Personal</p>
+      </div>
+      <div class="module">
+        <p class="module-num">2</p>
+        <p>Education</p>
+      </div>
+      <div class="module">
+        <p class="module-num">3</p>
+        <p>Declaration</p>
+      </div>
+    </div>
+  
+    <!-- ------------Form Section---------------------------------------- -->
+  
+    <div class="form-section">
+      <h2>Applicant Informaton</h2>
+  
+      <form action="register" method="post">
+        <div class="form-div1">
+          <div class="form-div-sub">
+            <label for="Student Id">Student ID</label><br />
+            <input
+              type="text"
+              name="Student Id"
+              placeholder="Enter Student ID"
+              required
+            />
+          </div>
+          <div class="form-div-sub">
+            <label for="date">Application Date</label><br />
+            <input type="date" name="date" placeholder="date" required />
+          </div>
+        </div>
+  
+        <label for="name">Full Name</label><br />
+        <div class="full-name-input">
+          <input
+            class="name"
+            type="text"
+            name="Firstname"
+            placeholder="First Name"
+            required
+          />
+          <input
+            class="name"
+            type="text"
+            name="Middlename"
+            placeholder="Middle Name"
+            required
+          />
+          <input
+            class="name"
+            type="text"
+            name="Lastname"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+  
+        <label for="name">Father's Name</label><br />
+        <div class="full-name-input">
+          <input
+            class="name"
+            type="text"
+            name="Firstname"
+            placeholder="First Name"
+            required
+          />
+          <input
+            class="name"
+            type="text"
+            name="Middlename"
+            placeholder="Middle Name"
+            required
+          />
+          <input
+            class="name"
+            type="text"
+            name="Lastname"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+  
+        <div class="form-div1">
+          <div class="form-div-sub">
+            <label for="date">Date Of Birth</label><br />
+            <input
+              class="d-o-b"
+              type="date"
+              name="date"
+              placeholder="date"
+              required
+            />
+          </div>
+          <div class="form-div-sub">
+            <label for="number">Phone No</label><br />
+            <input
+              class="input-phone"
+              type="number"
+              name="number"
+              placeholder="Enter Your Phone Number"
+              required
+            />
+          </div>
+          <div class="form-div-sub">
+            <label for="mail">Email</label><br />
+            <input
+              type="email"
+              name="mail"
+              placeholder="Enter Your Email"
+              required
+            />
+          </div>
+        </div>
+        <label for="Address">Address(Permanent)</label><br />
+        <textarea
+          rows="2"
+          placeholder="Enter Your Permanent Address"
+          required
+        ></textarea>
+  
+        <div class="form-div1">
+          <div class="form-div-sub">
+            <label for="contact">Parent/Guardian Contact Details</label><br />
+            <input type="text" placeholder="Enter Conatact Details" />
+          </div>
+          <div class="form-div-sub">
+            <label for="Income">total Household Income</label><br />
+            <input type="text" placeholder="Enter Conatact Details" />
+          </div>
+        </div>
+      </form>
+  
+      <div class="next-btn">
+        <a href="register-education" class="btn">Next</a>
+      </div>
+    </div>
+  </div>
+  
