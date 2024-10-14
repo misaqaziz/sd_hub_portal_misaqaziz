@@ -1,0 +1,82 @@
+<div class="main-register">
+    <div class="register-head">
+      <div class="register-head-div1">
+        <div class="img">
+          <img src="./logo.png" alt="" />
+        </div>
+        <div class="logo-name">
+          <h1>Student Registration</h1>
+          <p>Skill Development Hub</p>
+        </div>
+      </div>
+  
+      <div class="register-head-div2">
+        <!-- <input type="file" name="file" placeholder="Upload Photo"> -->
+      
+      </div>
+    </div>
+  
+    <!-- -------------Module Section---------------------------------- -->
+  
+    <div class="module-sec">
+      <div class="module">
+        <p class="module-num num1">1</p>
+        <p class="num1-p">Personal</p>
+      </div>
+      <div class="module">
+        <p class="module-num num1">2</p>
+        <p class="num1-p">Education</p>
+      </div>
+      <div class="module">
+        <p class="module-num">3</p>
+        <p>Declaration</p>
+      </div>
+    </div>
+  
+    <!-- ------------Form Section---------------------------------------- -->
+  
+    <div class="form-section">
+      <h2>Course Details</h2>
+        <form action="register-education" method="post">
+
+            <label for="Course">Course Apply For</label><br>
+            <select name="Course" id="course">
+                <option value="" disabled selected>Select a Course</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="Tally">Tally</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+            </select>
+
+            <div class="main-input">
+                <div class="sub-input">
+                    <label for="Degree">Degree</label><br>
+                    <input type="text" id="degree" name="degree" placeholder="Enter Your Degree" required>
+                </div>
+                <div class="sub-input">
+                    <label for="Collage Name">Collage Name</label><br>
+                    <input type="text" id="collage" name="collage" placeholder="Enter Your Collage Name" required>
+                </div>
+            </div>
+
+            <div class="main-input">
+                <div class="sub-input">
+                    <label for="Year Of Passing">Year Of Passing</label><br>
+                    <input type="text" id="passing" name="passing" placeholder="Enter Year Of Passing" required>
+                </div>
+                <div class="sub-input">
+                    <label for="Percentage">Percentage</label><br>
+                    <input type="text" id="percentage" name="percentage" placeholder="Enter Your Percentage" required>
+                </div>
+            </div>
+
+        </form>
+      
+  
+      <div class="next-btn">
+        <a class="Previous" href="register">Previous</a>
+        <a class="btn" href="register-declaration">Next</a>
+      </div>
+    </div>
+  </div>
+  
