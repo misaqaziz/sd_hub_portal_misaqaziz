@@ -1,0 +1,12 @@
+.navbar{
+    background-color: #DC143C; 
+}
+.logo {
+    height: 55px; /* Adjust height as needed */
+    margin-right: 160px; /* Space between logo and buttons */
+}
+.spacer {
+    flex: 1; /* This will push the nav buttons to the right */
+   
+    
+}

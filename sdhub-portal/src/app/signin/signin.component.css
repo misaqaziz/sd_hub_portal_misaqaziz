@@ -9,6 +9,7 @@
     /* border-radius: 5px; */
     box-shadow: 0 0 5px rgb(0, 0, 0.1);
     background-color: #fff;
+    margin-bottom: 150px;
 
 }
 .login-head{
@@ -84,6 +85,7 @@ button[type="submit"]{
     border-radius: 4px;
     cursor: pointer;
     margin-top: 20px;
+    margin-bottom: 150px;
 }
 button[type="submit"]:hover{
     background-color: #DC143C;
